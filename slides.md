@@ -81,6 +81,18 @@ Research questions
 - How does the grid load change due to more RE and evolving flexibilities?
 - What's the influence of self-sufficiency (targets)? 
 
+# Energy System Model
+
+- 1 year
+- Temporal resolution: 1h
+- Spatial resolution: municipality resp. HV/MV substation 
+- ~1k nodes
+- Dispatch optimization only (costs)
+- TECH DETAILS?
+
+\vspace{-1ex}
+![](img/abw_esys_graph.png){ height=30% }
+
 # Energy System: (National) power grid
 
 \vspace{-6ex}
@@ -122,18 +134,6 @@ Research questions
 \vspace{-6ex}
 \center
 ![](img/map_abw_esys6.png){ height=52% }
-
-# Model
-
-- 1 year
-- Temporal resolution: 1h
-- Spatial resolution: municipality resp. HV/MV substation 
-- ~1k nodes
-- Dispatch optimization only (costs)
-- TECH DETAILS?
-
-\vspace{-1ex}
-![](img/abw_esys_graph.png){ height=30% }
     
 # Data
 
@@ -265,6 +265,8 @@ Determine available area using GIS, method:
 *max. 1 % of total fields and meadows available, 1.5 ha/MWp
 
 # Land Availability: Background
+
+\centering
 
 **Stakeholder Empowerment (StEmp) Tool ABW** (under the hood: _oemof_)
 
