@@ -37,7 +37,7 @@ nocite: '@*'
 - Regions: Anhalt-Bitterfeld-Wittenberg and Uckermark
 - Objective: Investigation of 2 different regional approaches to integrate high
   shares of renewable energy
-- Focus: Use of flexibility options in order to avoid curtailment, use
+- Focus in ABW: Use of flexibility options in order to avoid curtailment, use
   surpluses from renewable energy and increase their local share
 
 \begin{figure}
@@ -137,14 +137,14 @@ Research questions
     
 # Data
 
-- Grid: open_eGo
 - Wind feedin: windpowerlib via reegis (weather: coastdat2)
 - PV feedin: renewables.ninja (weather: CM-SAF SARAH)
 - Power units: OPSD, MaStR, plant operators
 - Power demand: open_eGo
 - Heat demand (households): DESTATIS, DemandRegio, IWU
 - Heat demand (retail, comm., agricultural): STALA, Federal Employment Agency, BMWi
-- Land availability 
+- Power Grid: open_eGo
+- Land availability: Regional Planning Authority, Environmental Protection Agency of Sachsen-Anhalt
 
 PostgreSQL DB + SQLAlchemy
 
@@ -254,7 +254,7 @@ Determine available area using GIS, method:
 
 # RE Potential: Ground-mounted PV in numbers
 
-|                                          | Hard area [ha] | **Hard el. power [MWp]*** | Hard+Light area [ha] | **Hard+Light el. power [MWp]*** |
+|                                          | Strict: area [ha] | **Strict: el. power [MWp]*** | Strict+weak: area [ha] | **Strict+weak: el. power [MWp]*** |
 | ---------------------------------------- | -----------:| -----------------------------:| -----------:| -----------------------------:|
 | Federal motorways                        |       226,0 |                         150,7 |       138,0 |                          92,0 |
 | Railways                                 |      1959,0 |                        1306,0 |       963,0 |                         642,0 |
