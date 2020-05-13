@@ -275,7 +275,7 @@ Determine available area using GIS, method:
 \center
 ![](img/map_abw_land_avail_wind4.png){ height=52% }
 
-# RE Potential: Wind in numbers
+# RE Potential: Wind in Numbers
 
 | Distance to settlements [m] | Use forests? | Area [ha] | Inst. WEC Count* | **Inst. WEC power [MW]*** |
 |------------------------:|--------------|----------:|-----------------:|----------------------:|
@@ -318,7 +318,7 @@ Determine available area using GIS, method:
 \center
 ![](img/map_abw_land_avail_pv1.png){ height=52% }
 
-# RE Potential: Ground-mounted PV in numbers
+# RE Potential: Ground-mounted PV in Numbers
 
 |                                          | Strict: area [ha] | **Strict: el. power [MWp]*** | Strict+weak: area [ha] | **Strict+weak: el. power [MWp]*** |
 | ---------------------------------------- | -----------:| -----------------------------:| -----------:| -----------------------------:|
@@ -355,7 +355,7 @@ Determine available area using GIS, method:
 \center
 ![](img/abw_re_targets_vs_land_avail.png){ height=45% }
 
-# Current status and open tasks
+# Current Status and Open Tasks
 
 Done
 
