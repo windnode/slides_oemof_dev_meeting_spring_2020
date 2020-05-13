@@ -81,18 +81,6 @@ Research questions
 - How does the grid load change due to more RE and evolving flexibilities?
 - What's the influence of self-sufficiency (targets)? 
 
-# Energy System Model
-
-- 1 year
-- Temporal resolution: 1h
-- Spatial resolution: municipality resp. HV/MV substation 
-- ~1k nodes
-- Dispatch optimization only (costs)
-- TECH DETAILS?
-
-\vspace{-1ex}
-![](img/abw_esys_graph.png){ height=30% }
-
 # Energy System: (National) power grid
 
 \vspace{-6ex}
@@ -134,15 +122,92 @@ Research questions
 \vspace{-6ex}
 \center
 ![](img/map_abw_esys6.png){ height=52% }
-    
+
+# Energy System Model: Overview
+
+- 1 year
+- Temporal resolution: 1h
+- Spatial resolution: municipality resp. HV/MV substation 
+- ~1k nodes
+- Dispatch optimization only (costs)
+
+\vspace{-1ex}
+![](img/abw_esys_graph.png){ height=30% }
+
+# ESM: Municipality (1/11)
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun1.png){ height=52% }
+
+# ESM: Municipality (2/11) - El. Buses
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun2.png){ height=52% }
+
+# ESM: Municipality (3/11) - Commodity Buses
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun3.png){ height=52% }
+
+# ESM: Municipality (4/11) - El. Demand
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun4.png){ height=52% }
+
+# ESM: Municipality (5/11) - El. Generators (fixed)
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun5.png){ height=52% }
+
+# ESM: Municipality (6/11) - Th. Demand (decentral)
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun6.png){ height=52% }
+
+# ESM: Municipality (7/11) - Heat pumps (decentral PtH)
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun7.png){ height=52% }
+
+# ESM: Municipality (8/11) - Th. Dem. + Gen. (central)
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun8.png){ height=52% }
+
+# ESM: Municipality (9/11) - Boilers (central PtH)
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun9.png){ height=52% }
+
+# ESM: Municipality (10/11) - Battery Storages
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun10.png){ height=52% }
+
+# ESM: Municipality (11/11) - DSM
+
+\vspace{-6ex}
+\center
+![](img/abw_esys_graph_mun11.png){ height=52% }
+
 # Data
 
 - Wind feedin: windpowerlib via reegis (weather: coastdat2)
 - PV feedin: renewables.ninja (weather: CM-SAF SARAH)
 - Power units: OPSD, MaStR, plant operators
-- Power demand: open_eGo
-- Heat demand (households): DESTATIS, DemandRegio, IWU
-- Heat demand (retail, comm., agricultural): STALA, Federal Employment Agency, BMWi
+- Power demand (HH, RCA, Ind.) : open_eGo, demandlib
+- Heat demand (HH): DESTATIS, DemandRegio, IWU, demandlib
+- Heat demand (retail, comm., agricultural): STALA, Federal Employment Agency, BMWi, demandlib
 - Power Grid: open_eGo
 - Land availability: Regional Planning Authority, Environmental Protection Agency of Sachsen-Anhalt
 
@@ -221,7 +286,8 @@ Determine available area using GIS, method:
 |                    1000 | yes          |     69057 |              345 |              **1449** |
 |                    1500 | yes          |     25629 |              128 |               **538** |
 
-*10 % of total potential area available, WEC: Enercon E-141 4.2 MW, 20 ha/MW 
+*10 % of total potential area available (due to case-by-case decisions),
+WEC: Enercon E-141 4.2 MW, 20 ha/MW 
 
 # Land Availability: Ground-mounted PV (1/2)
 
@@ -262,7 +328,7 @@ Determine available area using GIS, method:
 | - max. 1 % availability                  |    *2086,0* |                        1390,7 |    *2086,0* |                        1390,7 |
 | **Sum**                                  |  **4271,0** |                    **2847,4** |  **3187,0** |                    **2124,7** |
 
-*max. 1 % of total fields and meadows available, 1.5 ha/MWp
+*max. 1 % of total(!) fields and meadows available, 1.5 ha/MWp
 
 # Land Availability: Background
 
@@ -283,12 +349,11 @@ Determine available area using GIS, method:
 \vspace{1.25ex}
 **Source:** [https://github.com/rl-institut/WAM_APP_stemp_abw/](https://github.com/rl-institut/WAM_APP_stemp_abw/)
 
-# RE Potential
+# FRE Targets vs. Land Availability
 
-TBD
-
-- Table with all RE techs
-- Compare superordinate goals with regional potentials / Land availability vs. DE goals
+\vspace{-6ex}
+\center
+![](img/abw_re_targets_vs_land_avail.png){ height=45% }
 
 # Current status and open tasks
 
