@@ -74,8 +74,8 @@ Goals
 Research questions
 
 - To what extent can those objectives be achieved within the region?
-  (e.g. national climate protection goals)
-- What land requirements result from these goals? ($\rightarrow$ limited
+  (e.g. national climate protection targets)
+- What land requirements result from these targets? ($\rightarrow$ limited
   availability)
 - To what degree can DSM, PtH and batteries be used to increase flexibility?
 - How does the grid load change due to more RE and evolving flexibilities?
@@ -335,6 +335,8 @@ Determine available area using GIS, method:
 \vspace{-6ex}
 \center
 ![](img/abw_re_targets_vs_land_avail.png){ height=45% }
+
+Note: generated energy increases due tech. improvements (full load hours: +50 %) 
 
 # Land Availability: Background
 
