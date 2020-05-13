@@ -3,7 +3,7 @@ author:
 - Jonathan Amme
 - Guido Pleßmann
 title: WindNODE ABW
-subtitle: A regional energy system model in Anhalt-Bitterfeld-Wittenberg
+subtitle: A regional energy system model for Anhalt-Bitterfeld-Wittenberg
 institute: Reiner Lemoine Institut
 classoption: aspectratio=169
 date: \today
