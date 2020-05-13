@@ -330,6 +330,12 @@ Determine available area using GIS, method:
 
 *max. 1 % of total(!) fields and meadows available, 1.5 ha/MWp
 
+# FRE Targets vs. Land Availability
+
+\vspace{-6ex}
+\center
+![](img/abw_re_targets_vs_land_avail.png){ height=45% }
+
 # Land Availability: Background
 
 \centering
@@ -348,12 +354,6 @@ Determine available area using GIS, method:
 
 \vspace{1.25ex}
 **Source:** [https://github.com/rl-institut/WAM_APP_stemp_abw/](https://github.com/rl-institut/WAM_APP_stemp_abw/)
-
-# FRE Targets vs. Land Availability
-
-\vspace{-6ex}
-\center
-![](img/abw_re_targets_vs_land_avail.png){ height=45% }
 
 # Current Status and Open Tasks
 
